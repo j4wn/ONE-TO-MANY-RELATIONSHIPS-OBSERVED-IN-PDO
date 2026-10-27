@@ -1,0 +1,119 @@
+/*General Styling*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F5EFE6; /* Soft Beige */
+    color: #3B2F2F; /* Dark brownish-black for readability */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Headings*/
+h2 {
+    color: #722F37; /* Red Wine */
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/*Form*/
+form {
+    background-color: #FFFFFF;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto 30px auto;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(114, 47, 55, 0.1);
+    border-top: 5px solid #722F37; /* Red Wine Accent */
+    text-align: left;
+}
+
+input[type="text"], 
+input[type="number"], 
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    display: inline-block;
+    border: 1px solid #D1C7BD;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #FAFAFA;
+}
+
+input[type="text"]:focus, 
+input[type="number"]:focus, 
+select:focus {
+    border-color: #722F37;
+    outline: none;
+}
+
+/*Buttons*/
+input[type="submit"] {
+    width: 100%;
+    background-color: #722F37; /* Red Wine */
+    color: white;
+    padding: 12px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #5A232B; /* Darker Wine */
+}
+
+/*Table*/
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #E8DFD8;
+}
+
+th {
+    background-color: #722F37; /* Red Wine */
+    color: #F5EFE6; /* Beige */
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+tr:hover {
+    background-color: #FDFBF7; 
+}
+
+/*Links(Action buttons for Edit/Delete) */
+a {
+    color: #722F37;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+a:hover {
+    color: #9C414C;
+    text-decoration: underline;
+}
+
+/*Separator*/
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(114, 47, 55, 0), rgba(114, 47, 55, 0.5), rgba(114, 47, 55, 0));
+    margin: 40px 0;
+}
